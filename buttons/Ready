@@ -1,1 +1,13 @@
 Backlight buttons for Hp 350 g2
+
+Step 1: ioio by RehabMan https://bitbucket.org/RehabMan/os-x-ioio/downloads
+Copy the binary 'ioio' to a directory in your path, such as /usr/bin
+
+Step 2: Run this in Terminal
+ioio -s ApplePS2Keyboard LogScanCodes 1
+
+step 3: go utilities and open console.log app and find console.log
+
+step 4: buttons pressed will appear keep note of them
+
+step 5: remap 
