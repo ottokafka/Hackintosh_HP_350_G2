@@ -6,4 +6,7 @@ This patch is used in conjunction with ACPIBatteryManager.kext download here: ht
 
 Use a kext utility to install the kext. 
 
+After the DTDS is patched with my patch save it as DTDS.aml and copy it to EFI/Clover/ACPI/patched
+
+restart
 
