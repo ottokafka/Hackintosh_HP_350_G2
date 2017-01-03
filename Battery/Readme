@@ -2,6 +2,21 @@ This is the battery patch Hp 350 g2
 
 Use Maciasl to add patch to DTDS and follow this guide by RehabMan: https://www.tonymacx86.com/threads/guide-how-to-patch-dsdt-for-working-battery-status.116102/
 
+step 1: when hackintosh boot into clover press f4
+this will dump the DTDS to EFI/Clover/Acpi
+
+step 2: download iasl compiler: https://bitbucket.org/RehabMan/acpica/downloads
+unzip and place here: /usr/bin
+
+step 3: Disassembling ACPI files
+open terminal
+cd "to directory where you placed all SSDT/DSDT" example. cd desktop/acpi 
+iasl -da -dl *.aml
+
+use only the .dsl files
+
+step 4: download Maciasl
+
 This patch is used in conjunction with ACPIBatteryManager.kext download here: https://bitbucket.org/RehabMan/os-x-acpi-battery-driver/downloads
 
 Use a kext utility to install the kext. 
