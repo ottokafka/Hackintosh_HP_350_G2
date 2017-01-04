@@ -5,5 +5,7 @@ The Fix
 step 1: install codec commander: https://bitbucket.org/RehabMan/os-x-eapd-codec-commander/downloads
 use kext util to install
 
+if you use the kext in my gitHub renam .zip to .kext
+
 step 2: reboot
 
