@@ -1,0 +1,8 @@
+For best boot options for Hp 350 g2
+
+boot args
+-v dart=0 
+
+in EFI
+
+copy osxApitoFixDrv-free2000 in EFI
