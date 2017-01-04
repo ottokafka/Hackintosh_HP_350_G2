@@ -1,0 +1,9 @@
+Hp 350 g2 will have a bug which is no sound after its waking from sleep 
+
+The Fix
+
+step 1: install codec commander: https://bitbucket.org/RehabMan/os-x-eapd-codec-commander/downloads
+use kext util to install
+
+step 2: reboot
+
