@@ -1,5 +1,10 @@
 Backlight buttons for Hp 350 g2
 
+Easiest solution is to download brghtness slider from app store allows you to map keys and places the app on tool bar 
+next to the wifi.
+
+or
+
 Step 1: ioio by RehabMan https://bitbucket.org/RehabMan/os-x-ioio/downloads
 Copy the binary 'ioio' to a directory in your path, such as /usr/bin
 
