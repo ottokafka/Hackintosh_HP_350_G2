@@ -1,3 +1,8 @@
 Fix usb speed 
 
-Install kext in EFI/Clover/kext
+step 1: download the zip file 
+unzip
+2 files FakePCiid.kext and Fake_XHCIMUX.kext
+copy kext to EFI/Clover/kext
+
+reboot
