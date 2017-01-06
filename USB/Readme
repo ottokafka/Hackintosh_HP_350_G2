@@ -6,3 +6,6 @@ unzip
 copy kext to EFI/Clover/kext
 
 reboot
+
+If that fails follow this guide: https://www.tonymacx86.com/threads/usb-fixes.179056/#post1152921
+
