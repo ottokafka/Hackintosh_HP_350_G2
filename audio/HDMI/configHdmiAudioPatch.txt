@@ -1,0 +1,16 @@
+			<dict>
+				<key>Comment</key>
+				<string>HDMI-audio, port 0204, 0x16120003 0x16120005 0x16120006 0x16260006</string>
+				<key>Disabled</key>
+				<true/>
+				<key>Find</key>
+				<data>
+				AgQLAAAEAAAHBQAA
+				</data>
+				<key>Name</key>
+				<string>AppleIntelBDWGraphicsFramebuffer</string>
+				<key>Replace</key>
+				<data>
+				AgQLAAAIAACCAAAA
+				</data>
+			</dict>
