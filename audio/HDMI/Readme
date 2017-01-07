@@ -15,3 +15,6 @@ Step 4: change ig-platform-id in clover config in graphics section to 0x16260006
 step 5: apple the configHdmiAudioPatch to EFI/config.plist patch area
 
 restart
+
+
+Full guide by Rehabman with up to date info here: https://www.tonymacx86.com/threads/guide-intel-igpu-hdmi-dp-audio-sandy-ivy-haswell-broadwell-skylake.189495/
