@@ -1,0 +1,17 @@
+HDMI audio for Hp 350 g2
+
+step 1: Patch DSDT and STSD-9
+The patch with: graphics_Rename-B0D3
+the patch will have layout id of 28 this must match the HDEF layout id
+
+step 2: Patch DSDT and STSD-9
+The patch with: graphics_Rename-GFX0
+
+step 3: install kext with kext utility
+install FakePCIID.kext & FakePCIID_Intel_HDMI_Audio.kext
+
+Step 4: change ig-platform-id in clover config in graphics section to 0x16260006
+
+step 5: apple the configHdmiAudioPatch to EFI/config.plist patch area
+
+restart
