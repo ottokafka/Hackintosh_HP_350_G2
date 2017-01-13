@@ -6,3 +6,12 @@ step 3: install sierra from within El capitan
 step 3: make sure the graphic injector is off in clover boot screen options (will not boot if on)
 step 4: boot to install sierra
 step 5: In config.plist in kernal and patch section change: "find" 8945C839C7764F  "Replace" 8945C839C7EB4F      save it reboot
+
+
+Audio
+
+To get audio working for ALC282
+
+step 1: In clover configuator- EFI/Clover/ config.plist
+step 2: go to device - audio - inject "13"
+step 3: use kext utility to install HDAEnabler13.kext & AppleHDA.kext
