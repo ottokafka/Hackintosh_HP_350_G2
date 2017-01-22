@@ -1,0 +1,7 @@
+Fix the sleep problem 
+
+This requires patching the DSDT with Rehabmans usb patch 
+
+Step 1: apple usb patch to DSDT
+Step 2: congifg.plist click on fix usb
+step 3: reboot
