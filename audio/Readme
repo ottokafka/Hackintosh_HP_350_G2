@@ -2,7 +2,7 @@ Getting audio working on Hp 350 g2
 
 The patches will work for El Capitain ALC282
 
-step 1: install the Patched AppleHDA.kext using a kext utility 
+step 1: install the Patched AppleHDA.kext and HDAEnabler13.kext using a kext utility 
 
 step 2: add patchs "Audio Layout 12" Make sure the layout-id is 28: example = "layout-id", Buffer() { 28, 0x00, 0x00, 0x00 },
 "IRQ Fix" to DSDT
