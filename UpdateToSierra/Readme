@@ -4,8 +4,9 @@ Updating from el capitan to Sierra Hp 350 g2 HD 5500
 step 1: download sierra os from app store
 step 3: install sierra from within El capitan
 step 3: make sure the graphic injector is off in clover boot screen options (will not boot if on)
-step 4: boot to install sierra
-step 5: In config.plist in kernal and patch section change: "find" 8945C839C7764F  "Replace" 8945C839C7EB4F      save it reboot
+STEP 4: ADD and copy Kext from kext folder 11.0 to kext folder 12.0 (sierra will not boot if doesnt have these kexts)
+step 5: boot to install sierra
+step 6: In config.plist in kernal and patch section change: "find" 8945C839C7764F  "Replace" 8945C839C7EB4F      save it reboot
 
 
 Audio
