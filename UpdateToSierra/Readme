@@ -4,10 +4,17 @@ Updating from el capitan to Sierra Hp 350 g2 HD 5500
 step 1: download sierra os from app store
 step 3: install sierra from within El capitan
 step 3: make sure the graphic injector is off in clover boot screen options (will not boot if on)
-STEP 4: ADD and copy Kext from kext folder 11.0 to kext folder 12.0 (sierra will not boot if doesnt have these kexts)
+STEP 4: Add all Kexts to Other folder and delete folder 11.0 and folder 12.0 
 step 5: boot to install sierra
-step 6: install Graphics kext (GraphicsHD5500) to get video graphics working - use kext utility (go to graphics folder)
-step 6: In config.plist in kernal and patch section Name: AppleIntelBDWGraphicsFramebuffer change: "find" 8945C839C7764F  "Replace" 8945C839C7EB4F      save it reboot
+
+Graphics
+
+step 1: Install HEXFiend 
+step 2: Go to system/library/Extentions
+Step 3: find AppleIntelBDWGraphicsFramebuffer.kext
+step 4: right click and go to Show Package Contents/MacOS/AppleIntelBDWGraphicsFramebuffer open this with HexFiend
+Step 5: Press cmd F and change: "find" 8945C839C7764F  "Replace" 8945C839C7EB4F     
+step 6: save it reboot
 
 
 Audio
