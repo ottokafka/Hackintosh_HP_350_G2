@@ -12,7 +12,7 @@ Graphics
 step 1: Install HEXFiend 
 step 2: Go to system/library/Extentions
 Step 3: find AppleIntelBDWGraphicsFramebuffer.kext
-step 4: right click and go to Show Package Contents/MacOS/AppleIntelBDWGraphicsFramebuffer open this with HexFiend
+step 4: right click and go to Show Package Contents/MacOS/AppleIntelBDWGraphicsFramebuffer open this with HexFiend (download HexFiend http://ridiculousfish.com/hexfiend/)
 Step 5: Press cmd F and change: "find" 8945C839C7764F  "Replace" 8945C839C7EB4F     
 step 6: save it reboot
 
