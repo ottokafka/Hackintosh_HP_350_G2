@@ -1,4 +1,6 @@
 # Hackintosh_HP_350_G2
+intel i7 Broadwell 
+Intel HD Graphics 5500
 
 These have proven to work on el capitan 
 
