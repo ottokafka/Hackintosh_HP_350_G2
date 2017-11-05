@@ -8,6 +8,7 @@ Step 3: find AppleIntelBDWGraphicsFramebuffer.kext
 step 4: right click and go to Show Package Contents/MacOS/AppleIntelBDWGraphicsFramebuffer open this with HexFiend (download HexFiend http://ridiculousfish.com/hexfiend/)
 Step 5: Press cmd F and change: "Find: 04002616 00030303 00002002 00005001   Replace: 04002616 00030303 00003001 00009000    
 step 6: Clover setting / Graphics / change id to; 0x16260004
+step 7: open the terminal: sudo touch /System/Library/Extensions && sudo kextcache -u /
 save it reboot
 credit to Rehabman- https://www.tonymacx86.com/threads/guide-alternative-to-the-minstolensize-patch-with-32mb-dvmt-prealloc.221506/
 
