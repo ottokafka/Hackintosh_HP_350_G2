@@ -1,3 +1,30 @@
+---------------------------serria 12.6 --------------------------------------------------------------------
+
+Graphics HD5500
+
+step 1: Install HEXFiend 
+step 2: Go to system/library/Extentions
+Step 3: find AppleIntelBDWGraphicsFramebuffer.kext
+step 4: right click and go to Show Package Contents/MacOS/AppleIntelBDWGraphicsFramebuffer open this with HexFiend (download HexFiend http://ridiculousfish.com/hexfiend/)
+Step 5: Press cmd F and change: "Find: 04002616 00030303 00002002 00005001   Replace: 04002616 00030303 00003001 00009000    
+step 6: Clover setting / Graphics / change id to; 0x16260004
+save it reboot
+credit to Rehabman- https://www.tonymacx86.com/threads/guide-alternative-to-the-minstolensize-patch-with-32mb-dvmt-prealloc.221506/
+
+
+
+Audio
+
+To get audio working for ALC282
+step 1) get a patched AppleHDA ( i used this one https://github.com/insanelydeepak/Patched-AppleHDA-for-Mac-OS-Sierra-10.12/blob/master/Laptop's/AppleHDA-276.26-ALC282.zip)
+step 2) patch the DSDT with RehabMan/Laptop-DSDT-Patch (https://github.com/RehabMan/Laptop-DSDT-Patch/blob/master/audio/audio_HDEF-layout12.txt)
+reboot
+
+
+
+
+----------------------------------Serria 12.5---------------------------------------------------
+
 Updating from el capitan to Sierra Hp 350 g2 HD 5500
 
 
